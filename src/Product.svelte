@@ -4,7 +4,7 @@
     export let price;
     const dispatch = createEventDispatcher();
     function addToCart() {
-        dispatch('add-to-cart', {id: 'p1'});
+        dispatch('add-to-cart','p1');
     }
 </script>
 <article>
